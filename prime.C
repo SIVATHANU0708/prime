@@ -11,11 +11,14 @@ scanf("%d",&n);
       c++;
   }
   if(c==2)
-  
+  {
     printf("the number is prime");
+  }
     else
-printf("the number is not prime");
+    {
+      printf("the number is not prime");
 }
+  }
 return 0;
 }
 
