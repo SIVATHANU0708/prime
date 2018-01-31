@@ -19,7 +19,7 @@ scanf("%d",&n);
     {
       printf("the number is not prime");
 }
-  }
+  
 return 0;
 }
 
