@@ -7,7 +7,7 @@ scanf("%d",&n);
   for(i=2;i<=n;i++)
   {
     remainder=n%i;
-   
+  }
   if(remainder!=0)
   
     printf("the number is prime");
