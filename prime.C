@@ -10,6 +10,7 @@ scanf("%d",&n);
     {
       c++;
   }
+  }
   if(c==2)
   {
     printf("the number is prime");
