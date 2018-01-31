@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main()
 {
-int n,i,remainder;
+int n,i,c=0;
 printf("enter the number:");
 scanf("%d",&n);
   for(i=2;i<=n;i++)
   {
-    remainder=n%i;
+    if(n%i==0)
+    {
+      c++;
   }
-  if(remainder!=0)
+  if(c==2)
   
     printf("the number is prime");
     else
